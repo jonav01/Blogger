@@ -1,0 +1,37 @@
+.navbar {
+    padding: 1.5rem 1rem;
+    background-color: darkorchid;
+}
+
+.navbarList {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.navbarList__leftItem {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbarList__rightItem {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    right: 0;
+    top: 2px;   
+}
+
+.navbar__Items {
+    padding: 0px 2rem;
+    font-size: 2rem;
+    transform: scale(0.9);
+    transition: all .2s;
+}
+
+/* Hover Animation */
+.navbar__Items:hover{
+    color: white;
+    transform: scale(1.2);
+}
