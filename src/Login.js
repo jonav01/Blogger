@@ -1,10 +1,11 @@
+import './Login.css'
 import styled from "styled-components";
-import Button from "./components/Button";
-import Icon from "./components/Icon";
-import Input from "./components/Input";
+import Button from "./components/LoginComponents/Button";
+import Icon from "./components/LoginComponents/Icon";
+import Input from "./components/LoginComponents/Input";
 import { FaFacebookF, FaGoogle, FaGithub } from "react-icons/fa";
 
-function App() {
+function Login() {
   const FacebookBackground =
     "linear-gradient(to right, #0546A0 0%, #0546A0 40%, #663FB6 100%)";
   const GoogleBackground =
@@ -145,4 +146,4 @@ const ForgotPassword = styled.h4`
   letter-spacing: 0.2rem;
 `;
 
-export default App;
+export default Login;
