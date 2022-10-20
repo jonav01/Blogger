@@ -1,8 +1,8 @@
 import './Login.css'
 import styled from "styled-components";
-import Button from "./components/LoginComponents/Button";
-import Icon from "./components/LoginComponents/Icon";
-import Input from "./components/LoginComponents/Input";
+import Button from "../../components/LoginComponents/Button";
+import Icon from "../../components/LoginComponents/Icon";
+import Input from "../../components/LoginComponents/Input";
 import { FaFacebookF, FaGoogle, FaGithub } from "react-icons/fa";
 
 function Login() {
