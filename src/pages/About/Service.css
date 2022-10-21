@@ -1,0 +1,130 @@
+body{
+   background-color: #b7b7bd;
+}
+h1.heading {
+   font-size: 60px;
+   text-align: center;
+   font-weight: 700;
+   font-family: Poppins, sans-serif;
+   margin-bottom: 10px;
+}
+
+p.heading.p__color {
+   padding: 40px;
+   font-size: 22px;
+   margin:50px;
+   text-align: center;
+   line-height: 1.5;
+}
+
+.service__box {
+   -webkit-box-shadow: 12px 1px 9px -8px rgba(158,158,158,1);
+   -moz-box-shadow: 12px 1px 9px -8px rgba(158,158,158,1);
+   box-shadow: 12px 1px 9px -8px rgba(158,158,158,1); 
+   border-radius: 10px;
+   width: 75%;
+   background-color: #6d7172;
+   padding: 55px;
+   transition: .4s ease;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.service__box:hover {
+   transform: translateY(5px);
+   background-image: rgb(238,164,238);
+background:linear-gradient(323deg, rgba(238,164,238,1) 35%, rgba(90,192,213,1) 80%);
+}
+
+.service__box:hover .icon {
+   color: #fff;
+}
+
+.service__box:hover p.service__text .p__color {
+         color: #fff !important;
+}
+
+.icon {
+   font-size: 40px;
+   font-weight: 400;
+   margin-bottom: 15px;
+   display: inline-flex;
+   color: #5ac0d5;
+}
+
+p.service__text.p__color {
+   margin-bottom: 0;
+}
+
+h1.service__text {
+   font-size: 19px;
+   font-family: Poppins, sans-serif;
+   padding: 10px 0px;
+}
+
+.row {
+   display: flex;
+   height: 100%;
+   flex-wrap: wrap;
+   overflow: hidden;
+   align-items: flex-start;
+   justify-content: center;
+}
+
+.col__2{
+   max-width: 50%;
+   display: flex;
+   padding: 20px;
+   justify-content: center;
+   flex-direction: row;
+}
+.col__3 {
+   max-width: 50%;
+   display: flex;
+   padding: 20px;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 20px;
+}
+.component__space {
+   padding: 100px 10px ;
+}
+
+.container {
+   width: 90%;
+   margin: auto ;
+} 
+ 
+.white {
+    color: #fff !important;
+}
+
+.d__flex {
+   display: flex;
+}
+
+@media only screen and (max-width: 1024px) {
+   
+     .service__box {
+       padding: 32px;
+     }
+}
+
+@media only screen and (max-width: 768px) {
+   .row {
+      display: flex;
+      height: 100%;
+      flex-wrap: wrap;
+      overflow: hidden;
+      align-items: flex-start;
+      justify-content: center;
+   }
+
+   .col__2 {
+    max-width: 100%;
+   }
+   
+}
+
+
+
