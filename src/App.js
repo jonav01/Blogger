@@ -1,12 +1,24 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Imagecarousel from "./components/Imagecarousel";
+
+
+
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Navbar />
-    </div>
+      <Imagecarousel />
+    </>
+    
   );
+ 
+ 
 }
 
 export default App;
