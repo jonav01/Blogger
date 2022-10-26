@@ -1,25 +1,28 @@
 import React from "react";
-import './Service.css';
-import ReactDOM from "react-dom";
+import './About.css';
 
-function Service ()  {
+function About ()  {
     return (
+        
         <div className="service component__space" id="Services">
+            <h2 class="top">About</h2>
             <div className="heading">
                 <h1 className="heading">About Us</h1>
+                <h2 className="heading2">Welcome to the Blogging Community! <br></br>
+                Create a blog and share your voice in minutes. </h2>
                 <p className="heading p__color">
                 Blogger is a blogging platform that lets creators build beautiful blogs & newsletters. It is free (and ad-free) blogging platform to publish your ideas, share them with the Community and the world. 
-                <br></br>
                 It provides users with a potent, minimalist writing experience that is easy to use, well-supported, and distraction-free.
-                You can edit conversations collaboratively, and attach files and photos to posts.
                 <br></br>
-                It’s simple, beautiful, collaborative, and it helps you find the right audience for whatever you have to say.
+                <br></br>
+                You can edit conversations collaboratively, and attach files and photos to posts.
+                It's simple, beautiful, collaborative, and it helps you find the right audience for whatever you have to say.
             </p>
             </div>
 
-
-
-            
+            <div className="heading3">
+                <h2>What's Interesting about Blogger?</h2>
+                </div>
 
 
             <div className="container">
@@ -45,16 +48,13 @@ function Service ()  {
                 </svg>
                             </div>
                             <div className="service__meta">
-                                <h1 className="service__text">Business Stratagy</h1>
+                                <h1 className="service__text">Create Blogs</h1>
                                 <p className="p service__text p__color">
-                                    I throw myself down among the
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 </p>
-                                <p className="p service__text p__color">
-                                   tall grass by the stream as I lie
-                                </p>
-                                <p className="p service__text p__color">
-                                    Close to the earth.
-                                </p>
+                                {/* <p className="p service__text p__color">
+                                nemo asperiores fugiat et quas deserunt ?
+                                </p> */}
                             </div>
                          </div>
                     </div>
@@ -79,16 +79,13 @@ function Service ()  {
                 </svg>
                             </div>
                             <div className="service__meta">
-                                <h1 className="service__text">Business Stratagy</h1>
+                                <h1 className="service__text">Blogger</h1>
                                 <p className="p service__text p__color">
-                                    I throw myself down among the
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 </p>
-                                <p className="p service__text p__color">
-                                   tall grass by the stream as I lie
-                                </p>
-                                <p className="p service__text p__color">
-                                    Close to the earth.
-                                </p>
+                                {/* <p className="p service__text p__color">
+                                nemo asperiores fugiat et quas deserunt?
+                                </p> */}
                             </div>
                          </div>
                          </div>
@@ -115,24 +112,17 @@ function Service ()  {
                 </svg>
                             </div>
                             <div className="service__meta">
-                                <h1 className="service__text">Marketing & Reporting</h1>
+                                <h1 className="service__text">Blogger</h1>
                                 <p className="p service__text p__color">
-                                    I throw myself down among the
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 </p>
-                                <p className="p service__text p__color">
-                                   tall grass by the stream as I lie
-                                </p>
-                                <p className="p service__text p__color">
-                                    Close to the earth.
-                                </p>
+                                {/* <p className="p service__text p__color">
+                                nemo asperiores fugiat et quas deserunt?
+                                </p> */}
                             </div>
                          </div>
                     </div>
-                    
-
-                
-
-                    
+                      
                     
                 </div>
             </div>
@@ -140,5 +130,5 @@ function Service ()  {
     )
 }
 
-export default Service;
+export default About;
  

@@ -1,14 +1,14 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Login from "./pages/Login/Login";
-import Service from "./pages/About/Service";
+// import Navbar from "./components/Navbar";
+// import Login from "./pages/Login/Login";
+import About from "./pages/About/About";
 
 function App() {
   return (
     <div className="App">
-      <Login />
+      {/* <Login /> */}
       {/* <Navbar /> */}
-      {/* <Service /> */}
+      <About />
     </div>
   );
 }
