@@ -1,6 +1,6 @@
 .navbar {
     padding: 1.5rem 1rem;
-    background-color: darkorchid;
+    background-color: hwb(279 75% 15%);
 }
 
 .navbarList {
@@ -35,3 +35,4 @@
     color: white;
     transform: scale(1.2);
 }
+
