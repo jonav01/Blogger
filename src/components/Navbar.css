@@ -1,6 +1,13 @@
 .navbar {
-    padding: 1.5rem 1rem;
-    background-color: darkorchid;
+    padding: 1rem 1rem;
+}
+
+.topImg{
+    margin-top: -5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: contain;
 }
 
 .navbarList {
@@ -25,13 +32,14 @@
 
 .navbar__Items {
     padding: 0px 2rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     transform: scale(0.9);
     transition: all .2s;
 }
 
 /* Hover Animation */
 .navbar__Items:hover{
-    color: white;
+    /* color: white; */
+    cursor: pointer;
     transform: scale(1.2);
 }
