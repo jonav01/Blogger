@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #e6e2e2;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: black;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #e6e2e2;
+  background: #e6e2e2;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 70%;
+  /* position: absolute; */
+  margin-top: 30px;
+  margin-bottom: 20px;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+}
+
+
+
+.sidebar {
+    flex: 3;
+    height: fit-content;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fdfbfb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebarItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebarTitle {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: solid 1px #a7a4a4;
+    border-bottom: solid 1px #a7a4a4;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: #222222;
+    font-weight: 600;
+  }
+  
+  .sidebarItem > img {
+    margin-top: 15px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+  
+  .sidebarList {
+    list-style-type: none;
+    margin-bottom: 30px;
+  }
+  
+  .sidebarListItem {
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
