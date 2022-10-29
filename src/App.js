@@ -3,15 +3,17 @@ import Navbar from "./components/Navbar/Navbar";
 // import Home from "./pages/Home/Home";
 // import Login from "./pages/Login/Login";
 // import About from "./pages/About/About";
-import Blog from "./pages/Blog/Blog"
+// import Blog from "./pages/Blog/Blog"
+import Write from "./pages/Write/Write";
 
 function App() {
   return (
     <div className="App">
       {/* <Login /> */}
       <Navbar />
-      <Blog />
+      {/* <Blog /> */}
       {/* <About /> */}
+      <Write />
 
     </div>
   );
