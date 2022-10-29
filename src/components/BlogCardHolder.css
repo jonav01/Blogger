@@ -1,0 +1,74 @@
+.blogCardHolder {
+    display: flex;
+    padding: .4rem 2rem;
+    background-color: gainsboro;
+    flex-direction: row;
+    height: 50vh;
+    border-radius: 30px;
+}
+
+.blogCardHolder:not(:last-child){
+    margin-bottom: 3rem;
+}
+.blogCardImageContainer {
+    position: relative;
+    clip-path: circle(29.3% at 50% 50%); 
+    transition: all 0.4s;
+}
+
+.blogCardImage{
+    max-width: 100%;
+    transform: scale(1.5);
+    transition: all 0.4s;
+}
+.blogCardContent{
+    margin-top: 1rem;
+}
+.blogCardFeatures
+{
+    margin: 1rem 0px 3rem 0px;
+    border: 3.5px solid black;
+    border-radius: 20px;
+    padding: .3rem .2rem;
+    width: 14%;
+}
+.blogCardFeatures__tag
+{
+    padding: 0px .5rem;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border: 3.5px solid black;
+    margin: 0px .4rem;
+}
+.blogCardFeatures__time{
+    font-size: 1.2rem;
+}
+.blogCardHeading{
+    font-size: 3rem;
+    letter-spacing: 6px;
+    padding-bottom: 1.5rem;
+}
+.blogCardContent__paragraph{
+    font-size: 1.5rem;
+}
+.blogImageCaption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    opacity: 0;
+    text-align: center;
+    transition: all 0.7s ease-in-out;
+}
+.blogCardImageContainer:hover .blogImageCaption {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+.blogCardImageContainer:hover .blogCardImage {
+    transform: scale(1);
+    filter: blur(3px) brightness(70%);
+}
