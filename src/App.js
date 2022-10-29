@@ -4,7 +4,8 @@ import Navbar from "./components/Navbar/Navbar";
 // import Login from "./pages/Login/Login";
 // import About from "./pages/About/About";
 // import Blog from "./pages/Blog/Blog"
-import Write from "./pages/Write/Write";
+// import Write from "./pages/Write/Write";
+import Setting from "./pages/Setting/Setting";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Navbar />
       {/* <Blog /> */}
       {/* <About /> */}
-      <Write />
+      {/* <Write /> */}
+     <Setting />
 
     </div>
   );
