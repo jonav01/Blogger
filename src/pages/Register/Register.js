@@ -1,32 +1,37 @@
-import "./login.css";
+import "./register.css";
 import styled from "styled-components";
 import { FaFacebookF, FaGoogle, FaGithub } from "react-icons/fa";
 import Icon from "../../components/LoginComponents/Icon";
 
-function Login() {
+function Register() {
   const FacebookBackground =
     "linear-gradient(to right, #0546A0 0%, #0546A0 40%, #663FB6 100%)";
   const GoogleBackground =
     "linear-gradient(to right, #A12AC4 0%, #ED586C 40%, #F0A853 100%)";
   const GithubBackground = "linear-gradient(to right, #56C1E1 0%, #35A9CE 50%)";
   return (
-    <div className="login">
-      <span className="loginTitle">Login Details</span>
-      <form className="loginForm">
+    <div className="register">
+      <span className="registerTitle">Register Below</span>
+      <form className="registerForm">
+      <label>Name</label>
+        <input
+          className="registerInput"
+          type="text"
+          placeholder="Enter your name..."
+        />
         <label>Email</label>
         <input
-          className="loginInput"
+          className="registerInput"
           type="text"
           placeholder="Enter your email..."
         />
         <label>Password</label>
         <input
-          className="loginInput"
+          className="registerInput"
           type="password"
           placeholder="Enter your password..."
         />
-      <ForgotPassword>Forgot Password ?</ForgotPassword>
-        <button className="loginButton">Login</button>
+        <button className="registerButton">Register</button>
         <IconsContainer className="iconscontainer">
           <Icon color={GoogleBackground}>
             <FaGoogle />
@@ -39,12 +44,12 @@ function Login() {
           </Icon>
         </IconsContainer>
       </form>
-      <button className="loginRegisterButton">Register</button>
+      <button className="registerLoginButton">Login</button>
     </div>
   );
 }
 
-export default Login;
+export default Register;
 
 
 const IconsContainer = styled.div`
@@ -53,13 +58,4 @@ const IconsContainer = styled.div`
   align-self: center;
   margin: 2rem 0 2rem 0;
   width: 50%;
-`;
-
-const ForgotPassword = styled.h4`
-padding-top:5px;
-  cursor: pointer;
-  color: #000000;
-  letter-spacing: 0.1rem;
-  font-size: 12px;
-  align-self: end;
 `;
