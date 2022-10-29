@@ -54,6 +54,7 @@ const MainContainer = styled.div`
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 0.4rem;
+  
   @media only screen and (max-width: 320px) {
     width: 80vw;
     height: 90vh;

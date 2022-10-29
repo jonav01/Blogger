@@ -5,13 +5,12 @@ export default function Write() {
     <div className="write">
       <img
         className="writeImg"
-        src="https://images.pexels.com/photos/6685428/pexels-photo-6685428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-        alt=""
-      />
+        src="https://images.unsplash.com/photo-1666694421187-75957423ee77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt=""/>
       <form className="writeForm">
         <div className="writeFormGroup">
           <label htmlFor="fileInput">
-            <i className="writeIcon fas fa-plus"></i>
+            {/* <i className="writeIcon fas fa-plus"></i> */}
+            <i className="writeIcon fa-solid fa-plus"></i>
           </label>
           <input id="fileInput" type="file" style={{ display: "none" }} />
           <input
@@ -24,7 +23,7 @@ export default function Write() {
         <div className="writeFormGroup">
           <textarea
             className="writeInput writeText"
-            placeholder="Tell your story..."
+            placeholder="Write your blog here..."
             type="text"
             autoFocus={true}
           />
