@@ -1,10 +1,17 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
 .write {
-  padding-top: 50px;
+  padding-top: 60px;
 }
 
 .writeImg {
+  
   margin-left: 150px;
-  width: 70vw;
+  width: 70%;
   height: 250px;
   border-radius: 10px;
   object-fit: cover;
@@ -37,7 +44,7 @@
   font-size: 30px;
   border: none;
   padding: 20px;
-  width: 70vw;
+  width: 70%;
 }
 
 .writeInput::placeholder {
@@ -50,16 +57,18 @@
 }
 
 .writeText {
-  width: 70vw;
-  height: 40vh;
+  margin-left: 150px;
+  width: 70%;
+  height: 100%;
   font-family: inherit;
   font-size: 20px;
 }
 
 .writeSubmit {
   position: absolute;
-  top: 20px;
-  right: 50px;
+  /* top: 20px; */
+  /* right: 50px; */
+  margin-left: 80px;
   color: white;
   background-color: teal;
   padding: 10px;
@@ -69,4 +78,33 @@
   cursor: pointer;
   display: flex;
   align-items: center;
+}
+
+/* .my-3{
+  margin-left: 150px;
+  width: 70%;
+  height: 100%;
+} */
+
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 768px) {
+  
+}
+@media only screen and (max-width: 360px) {
+  .writeText{
+   margin: 0px;
+  }
+  .writeFormGroup {
+   margin: 0px;
+  }
+}
+@media only screen and (min-width: 420px) {
+  .writeText{
+    margin: 4rem;
+   }
+   .writeFormGroup {
+    margin: 4rem;
+   }
 }
