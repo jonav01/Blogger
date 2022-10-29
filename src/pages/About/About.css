@@ -1,6 +1,6 @@
-body{
+/* body{
    background-color: #e8e8ee;
-}
+} */
 .top::after {
    content:"";
    position:absolute;
