@@ -27,9 +27,11 @@ const Write=()=>{
         </div>
 
       <div className="writeText">
+      <Label for="content">Your Blog Here:</Label>
           <JoditEditor
             ref={editor}
             value={content}
+            onBlur={newContent => setContent(newContent)}
             onChange={newContent => {}} />
           <button className="writeSubmit" type="submit">
           Publish
