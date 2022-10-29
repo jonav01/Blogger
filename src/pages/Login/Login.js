@@ -1,7 +1,10 @@
 import "./login.css";
+import { useNavigate } from 'react-router-dom';
 import styled from "styled-components";
 import { FaFacebookF, FaGoogle, FaGithub } from "react-icons/fa";
 import Icon from "../../components/LoginComponents/Icon";
+
+
 
 function Login() {
   const FacebookBackground =
@@ -9,6 +12,13 @@ function Login() {
   const GoogleBackground =
     "linear-gradient(to right, #A12AC4 0%, #ED586C 40%, #F0A853 100%)";
   const GithubBackground = "linear-gradient(to right, #56C1E1 0%, #35A9CE 50%)";
+
+  let navigate = useNavigate(); 
+  const routeChange = () =>{ 
+    let path = `../register`; 
+    navigate(path);
+  }
+  
   return (
     <div className="login">
       <span className="loginTitle">Login Details</span>
@@ -39,7 +49,7 @@ function Login() {
           </Icon>
         </IconsContainer>
       </form>
-      <button className="loginRegisterButton">Register</button>
+      <button className="loginRegisterButton" onClick={routeChange}>Register</button>
     </div>
   );
 }
